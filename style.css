@@ -1,0 +1,110 @@
+.wallpaper {
+    width: 80%;
+    margin: 0 auto;
+}
+.headerPart {
+    display: flex;
+}
+.logo {
+    width: 30%;
+
+}
+.adress{
+    display: flex;
+    margin-left: 5%;
+    width: 15%;
+
+}
+.adressMarker {
+    margin-right: 5%;
+}
+.contact {
+    margin-left: 5%;
+    width: 20%;
+
+}
+.contactTelephone {
+    display: flex;
+}
+.contactTelephoneMarker {
+    margin-right: 5%;
+}
+.contactMail {
+    display: flex;
+}
+.contactMailMarker {
+    margin-right: 5%;
+}
+.buttonGetPrice {
+    width: 12%;
+    height: 100%;
+    display: inline-flex;
+    background: #4fff1a;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    padding: 1% 2%;
+}
+.buttonGetPrice:hover {
+    background: rgb(66, 64, 255);
+}
+.buttonFilePic {
+    margin-right: 5%;
+}
+.buttonLink a {
+    color: white;
+}
+.buttonLink a, .contackMailAdress a {
+    text-decoration: none;
+}
+.menuAndForm {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.menu {
+    width: 70%;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    width: max-content;
+    list-style-type: none;
+    padding: 2% 3%;
+    border: 1px solid grey;
+}
+#formSearch {
+    display: flex;
+    padding: 2%;
+}
+#searchMarker {
+    background: orange;
+    padding: 3%;
+    float: right;
+}
+.mainImg img{
+    width: 100%;
+}
+.ourProductsTitle h1 {
+    color: #86c043;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.mainNews {
+    width: 100%;
+    display: flex;
+}
+.mainNewsPart {
+    margin-right: 2%;
+    width: 40%;
+
+}
+.mainNewsPart img {
+    width: 100%;
+}
+footer {
+    background: #689434;
+    width: 100%;
+    height: 30vh;
+}
